@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scheduler" class="md-skip">
+        <a href="#carbonaware-scheduler" class="md-skip">
           Skip to content
         </a>
       
@@ -277,6 +277,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -288,6 +301,79 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client Libraries
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -344,6 +430,68 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#client-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client Libraries
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -358,11 +506,37 @@
 
 
 
-<h1 id="scheduler">Scheduler</h1>
-<p>This section covers the CarbonAware Scheduler service and its client libraries.</p>
+<h1 id="carbonaware-scheduler">CarbonAware Scheduler</h1>
+<h2 id="overview">Overview</h2>
+<p>The CarbonAware Scheduler is a service designed to help reduce the carbon footprint of computing workloads by scheduling them during times of lower carbon intensity. It provides an API that allows you to find optimal execution times for your workloads based on forecasted carbon intensity data across different cloud regions.</p>
+<h2 id="key-features">Key Features</h2>
 <ul>
-<li><a href="python/">Python</a></li>
+<li><strong>Carbon-aware scheduling</strong>: Determine the best time to run workloads to minimize carbon emissions</li>
+<li><strong>Multi-region support</strong>: Compare carbon intensity across AWS, Azure, and GCP regions</li>
+<li><strong>Flexible time windows</strong>: Define multiple time windows for potential execution</li>
+<li><strong>Comparative metrics</strong>: View carbon savings compared to worst-case, median, and naive scheduling</li>
+<li><strong>Simple REST API</strong>: Easy to integrate with existing systems and workflows</li>
 </ul>
+<h2 id="how-it-works">How It Works</h2>
+<ol>
+<li>You define a job with a specific duration (e.g., "1 hour")</li>
+<li>You specify one or more time windows when the job could run</li>
+<li>You select one or more cloud regions where the job could be executed</li>
+<li>The scheduler returns the optimal time and region to run your job to minimize carbon emissions</li>
+</ol>
+<h2 id="benefits">Benefits</h2>
+<ul>
+<li><strong>Reduce carbon footprint</strong>: Lower the environmental impact of your computing workloads</li>
+<li><strong>Cost optimization</strong>: Often, lower carbon intensity periods correlate with lower energy costs</li>
+<li><strong>Sustainability reporting</strong>: Track potential carbon savings for sustainability initiatives</li>
+<li><strong>Cloud flexibility</strong>: Compare emissions across different cloud providers and regions</li>
+</ul>
+<h2 id="client-libraries">Client Libraries</h2>
+<ul>
+<li><a href="python/">Python</a> - A full-featured Python SDK with both synchronous and asynchronous clients</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>The easiest way to get started is by using one of our client libraries. See the Python SDK documentation for examples and API reference.</p>
 
 
 
