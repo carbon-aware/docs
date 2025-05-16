@@ -1,0 +1,21 @@
+site_name: CarbonAware
+site_url: https://docs.carbonaware.dev
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+nav:
+  - Home: index.md
+  - Scheduler:
+      - Overview: scheduler/index.md
+      - Python Client: scheduler/python/index.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            merge_init_into_class: true
