@@ -15,7 +15,7 @@ This guide covers:
 ## Installation
 
 ```bash
-pip install carbonaware-scheduler
+pip install carbonaware-scheduler-client
 ```
 
 ---

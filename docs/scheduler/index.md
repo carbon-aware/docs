@@ -1,5 +1,5 @@
 # Scheduler
 
-This section covers the CarbonAware Scheduler service and its client libraries.o
+This section covers the CarbonAware Scheduler service and its client libraries.
 
-Python: [python](python/index.md)
+- [Python](python/index.md)
