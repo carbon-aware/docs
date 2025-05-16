@@ -8,6 +8,10 @@ theme:
   name: material
   palette:
     scheme: slate
+    primary: green
+  logo: images/logo.png
+  favicon: images/favicon.png
+    
 
 nav:
   - Home: index.md
