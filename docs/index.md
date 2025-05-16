@@ -28,6 +28,10 @@ The [CarbonAware Scheduler](scheduler/index.md) is a service that helps you find
 
 - [Python SDK](scheduler/python/index.md) - A full-featured Python client with both synchronous and asynchronous APIs
 
+### Integrations
+
+- [Prefect](integrations/prefect/index.md) - An easy-to-use integration for adding carbon-aware delays to your Prefect flows and tasks
+
 ## Getting Started
 
 The easiest way to get started with CarbonAware is to use one of our client libraries. Check out the [Scheduler Python SDK](scheduler/python/index.md) for examples and API reference.
