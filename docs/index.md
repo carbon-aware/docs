@@ -34,7 +34,7 @@ The [CarbonAware Scheduler](scheduler/index.md) is a service that helps you find
 
 ## Getting Started
 
-The easiest way to get started with CarbonAware is to use one of our client libraries. Check out the [Scheduler Python SDK](scheduler/python/index.md) for examples and API reference.
+The easiest way to get started with CarbonAware is to use one of our client libraries or integrations. Check out the [Scheduler Python SDK](scheduler/python/index.md) for examples and API reference, or the [Prefect Integration](integrations/prefect/index.md) for examples and API reference.
 
 ## Contributing
 
