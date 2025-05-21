@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.carbonaware.dev/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/integrations/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.carbonaware.dev/integrations/airflow/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.carbonaware.dev/integrations/airflow/api/</loc>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/integrations/prefect/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/integrations/prefect/api/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/scheduler/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/scheduler/python/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
          <loc>https://docs.carbonaware.dev/scheduler/python/api/</loc>
-         <lastmod>2025-05-19</lastmod>
+         <lastmod>2025-05-21</lastmod>
     </url>
 </urlset>
