@@ -19,7 +19,12 @@ nav:
       - Overview: scheduler/index.md
       - Python Client: scheduler/python/index.md
   - Integrations:
-      - Prefect: integrations/prefect/index.md
+      - Prefect:
+        - Overview: integrations/prefect/index.md
+        - API Specification: integrations/prefect/api.md
+      - Airflow:
+        - Overview: integrations/airflow/index.md
+        - API Specification: integrations/airflow/api.md
 
 plugins:
   - search

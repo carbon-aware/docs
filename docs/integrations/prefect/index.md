@@ -125,5 +125,5 @@ Both interfaces accept the same parameters:
 ## Next Steps
 
 * See the [CarbonAware Prefect API reference](./api.md) for detailed function signatures.
-* Return to the [Integrations overview](../index.md).
+* Try integrating with other orchestration tools (e.g., [Airflow](../airflow/index.md)).
 * Back to the [CarbonAware Docs Home](../../index.md).

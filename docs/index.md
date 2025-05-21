@@ -31,6 +31,7 @@ The [CarbonAware Scheduler](scheduler/index.md) is a service that helps you find
 ### Integrations
 
 - [Prefect](integrations/prefect/index.md) - An easy-to-use integration for adding carbon-aware delays to your Prefect flows and tasks
+- [Airflow](integrations/airflow/index.md) - An easy-to-use integration for adding carbon-aware delays to your Airflow DAGs
 
 ## Getting Started
 
