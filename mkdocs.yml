@@ -32,7 +32,11 @@ plugins:
       handlers:
         python:
           options:
+            docstring_style: google
             merge_init_into_class: true
+            extensions:
+              - griffe_pydantic:
+                  schema: true
 
 markdown_extensions:
   - pymdownx.highlight:

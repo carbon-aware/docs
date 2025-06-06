@@ -8,6 +8,7 @@ dependencies = [
     "airflow-provider-carbonaware>=0.1.1",
     "carbonaware-prefect>=0.1.3",
     "carbonaware-scheduler-client>=1.0.0",
+    "griffe-pydantic>=1.1.4",
     "mkdocs-material>=9.6.14",
     "mkdocstrings[python]>=0.29.1",
 ]

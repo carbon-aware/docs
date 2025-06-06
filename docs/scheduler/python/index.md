@@ -179,6 +179,5 @@ The async client methods mirror the sync ones exactly.
 
 ## Next Steps
 
-* See the [full schema definitions](./api.md) for request and response types.
 * Return to the [Scheduler Overview](../index.md).
 * Back to the [CarbonAware Docs Home](../../index.md).
